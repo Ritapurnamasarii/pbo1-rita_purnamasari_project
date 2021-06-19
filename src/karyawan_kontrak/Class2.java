@@ -7,9 +7,9 @@ public class Class2 extends Class1 {
     public int join, kontrak;
 
     public void Bidang(){
-        System.out.println(nama+" ahli dalam bidang "+bidang);
+        System.out.println(getNama()+" ahli dalam bidang "+bidang);
     }
     public void MasaKontrak(){
-        System.out.println("Masa kontrak "+nama+" akan berakhir pada "+(join+kontrak));
+        System.out.println("Masa kontrak "+getNama()+" akan berakhir pada "+(join+kontrak));
     }
 }
