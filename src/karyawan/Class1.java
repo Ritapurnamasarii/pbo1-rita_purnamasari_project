@@ -86,7 +86,5 @@ public class Class1 {
     public int getAbsen(){
         return absen;
     }
-    public long getGajih(){
-        return gajih;
-    }
+    public long getGajih(){ return gajih; }
 }
