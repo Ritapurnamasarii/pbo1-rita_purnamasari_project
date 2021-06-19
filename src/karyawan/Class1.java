@@ -19,20 +19,4 @@ public class Class1 {
     public void Alamat(){
         System.out.println("Alamat "+nama+" bertempat di "+alamat);
     }
-
-    public static void main(String[] args) {
-        //pembuatan objek
-        Class1 Rita = new Class1();
-        Rita.id = "001";
-        Rita.nama = "Rita Purnamasari";
-        Rita.alamat = "Bangkal";
-        Rita.tanggal_lahir = "05 September 2001";
-        Rita.gender = "Perempuan";
-        Rita.masuk = 15;
-
-        Rita.Desc();
-        Rita.Alamat();
-        Rita.InfoAbsen();
-        Rita.Gajih();
-    }
 }
