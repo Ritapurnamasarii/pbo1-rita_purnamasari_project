@@ -77,9 +77,9 @@ public class Class3 {
         Resa.setAlamat("Bangkal Banjarbaru");
         Resa.setTanggal_lahir("18 April 2005");
         Resa.setGender("Perempuan");
-        Resa.bidang = "Busana butik";
-        Resa.join = 2021;
-        Resa.kontrak = 5;
+        Resa.setBidang("Busana butik");
+        Resa.setJoin(2021);
+        Resa.setKontrak(5);
         Resa.setMasuk(18);
         Resa.Desc();
         Resa.Alamat();
